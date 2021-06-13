@@ -6,7 +6,7 @@ import responses as R
 print('Bot is starting')
 
 def start_command(update, context):
-	update.message.reply_text('Send the link of the video that you want to download. :)')
+	update.message.reply_text('Send the link of the video that you want to download. :)\nConsider subscribing to telegram.me/estudely for more.')
 
 
 def handle_message(update, context):
